@@ -1,3 +1,15 @@
-.tomate {
-    background-color: tomato;
+body{
+    background-color: #252a34;
+    margin: 0 auto;
+}
+ 
+.nav-bar{
+    background-color: #08d9d6;
+    padding: 1%;
+}
+
+.navbar-nav{
+    list-style: none;
+    display: flex;
+    align-content: flex-start;
 }

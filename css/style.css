@@ -9,20 +9,30 @@ body{
     display: flex;
 }
 
+.logo{
+    display: flex;
+}
+
+
 .navbar-nav{
     list-style: none;
     display: flex;
-    justify-content: center;
+}
+
+.nav-item{
+    display: flex;
+   
 }
 
 .nav-link{
     color:#252a34;
     text-decoration: none;
-    
-
+    padding-left: 40px;
+   
 }
-
-.logo{
+.centrado{
     display: flex;
-    justify-content: flex-start;
+    align-items: center;
+    font-size: large;
+
 }

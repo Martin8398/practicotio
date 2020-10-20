@@ -5,11 +5,24 @@ body{
  
 .nav-bar{
     background-color: #08d9d6;
-    padding: 1%;
+    padding: 1px;
+    display: flex;
 }
 
 .navbar-nav{
     list-style: none;
     display: flex;
-    align-content: flex-start;
+    justify-content: center;
+}
+
+.nav-link{
+    color:#252a34;
+    text-decoration: none;
+    
+
+}
+
+.logo{
+    display: flex;
+    justify-content: flex-start;
 }

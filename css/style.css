@@ -24,6 +24,54 @@ body{
     align-content: flex-start;
 }
 
+.centrado{
+    display: flex;
+    text-align: center;
+    align-items: center;
+}
+
+.nav-link{
+    padding-left: 50px;
+    text-decoration: none;
+    color: #252a34;
+    font-size: 20px;
+}
+
+
+
+/*cartas de productos*/
+
+.container{
+    margin: 0 auto;
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;  
+    flex-wrap: wrap;
+}
+
+.column{
+    background: white;
+    color: #252a34;
+    margin: 10px;
+    padding: 10px;
+    border: 3px solid #08d9d6;
+    border-radius: 10px;
+    
+
+}
+
+.Product img{
+    max-width: 200px;
+}
+
+p.price{
+    color:#ff2e63;
+    font-size: 30px;
+    font-weight:500;
+}
+
 .libretas{
     
 }

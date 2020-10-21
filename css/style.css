@@ -24,6 +24,18 @@ body{
     align-content: flex-start;
 }
 
+.centrado{
+    display: flex;
+    text-align: center;
+}
+
+.nav-link{
+    padding-left: 50px;
+    text-decoration: none;
+    color: #252a34;
+    font-size: 20px;
+}
+
 .libretas{
     
 }

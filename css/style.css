@@ -9,8 +9,14 @@ body{
  
 .nav-bar{
     background-color: #08d9d6;
-    padding: 1%;
+    padding: 1px;
+    display: flex;
 }
+
+.logo{
+    display: flex;
+}
+
 
 .navbar-nav{
     list-style: none;
